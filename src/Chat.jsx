@@ -9,7 +9,8 @@ function Chat() {
   };
   return (
     <>
-      <div className="absolute w-[27%] h-[73%] top-[16%] left-[50px] border border-black flex flex-col justify-center items-start p-4 rounded-[5%] ml-[30%]">
+    <div className="w-full h-[100vh] flex justify-center items-center">
+    <div className="w-full sm:w-[60%] md:w-[50%] h-[73%] border border-black flex flex-col justify-center items-start p-4 rounded-[5%]">
         <RiMessageLine className="text-[30px] text-violet-500" />
         <h1 className="text-[40px]">Hello</h1>
         <h2 className="text-[40px] font-bold text-violet-500 font-Dosis">
@@ -23,6 +24,8 @@ function Chat() {
           Click
         </button>
       </div>
+    </div>
+      
     </>
   );
 }
