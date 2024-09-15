@@ -9,6 +9,7 @@ const Home = lazy(() => import("./Home"));
 const About = lazy(() => import("./About"));
 const Chat = lazy(() => import("./Chat"));
 const Chatbot = lazy(() => import("./Chatbot"));
+const Translate = lazy(() => import("./Translate"));
 const AuthenticatedRoute = lazy(() => import("./AuthenticatedRoute"));
 
 // Loader component (can be a spinner or any other loader)
@@ -54,6 +55,7 @@ const AppContent = () => {
             <Route path="/todoapp" element={<TodoApp />} />
             <Route path="/chat" element={<Chat />} />
             <Route path="/chatbot" element={<Chatbot />} />
+            <Route path="/Translate" element={<Translate />} />
             {/* Add AuthenticatedRoute if necessary */}
           </Routes>
         </Suspense>

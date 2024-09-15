@@ -6,7 +6,7 @@ function Home() {
 
   const handleClick = (e) => {
     if (e === "chat") navigate("/Chat");
-    if (e === "translate") navigate("/translate");
+    if (e === "Translate") navigate("/Translate");
     if (e === "faqs") navigate("/TodoApp");
     if (e === "about") navigate("/About");
   };
@@ -32,10 +32,10 @@ function Home() {
         </div>
 
         <div
-          onClick={() => handleClick("translate")}
+          onClick={() => handleClick("Translate")}
           className="bg-yellow-200 shadow-lg shadow-yellow-500 hover:shadow-2xl hover:shadow-yellow-500 rounded-xl h-[127px] w-[127px] flex items-center justify-center transition duration-300 transform hover:scale-105"
         >
-          <img src="/assets/googleTranslate.png" className="w-[60px]"></img>
+          <img src="/hh.jpg" className="w-[60px]"></img>
         </div>
 
         <div
