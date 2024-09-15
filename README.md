@@ -25,8 +25,7 @@ Here's a sample `README.md` file for your `fruit.ai` project:
 
 ### Prerequisites
 
-- Python 3.x
-- Node.js
+- Python 3
 - MongoDB
 
 ### Installation
