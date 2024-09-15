@@ -15,10 +15,10 @@ const Signup = () => {
         confirm_password: confirmPassword,
       });
 
-      if (response.status === 200) {
+      
         alert('Signup successful!');
         navigate('/login');
-      }
+      
     } catch (error) {
       console.error('Error during registration:', error.response?.data?.message || error.message);
       alert('Error during registration: ' + (error.response?.data?.message || error.message));
