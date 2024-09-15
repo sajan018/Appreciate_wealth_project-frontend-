@@ -57,7 +57,7 @@ Here's a sample `README.md` file for your `fruit.ai` project:
 
 5. Run the Flask server:
     ```bash
-    flask run
+    python app.py
     ```
 
 #### Frontend (React)
