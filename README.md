@@ -8,6 +8,10 @@ Here's a sample `README.md` file for your `fruit.ai` project:
 
 **fruit.ai** is a web application that combines the power of Flask, MongoDB, and React to provide an interactive experience for users. The application allows users to view content and interact with a chatbot for suggestions. It includes features for managing FAQs with user authentication, ensuring that only authenticated users can upload FAQs and that each user can only edit or delete their own submissions.
 
+## FAQ Section
+Only loged in user can able to add fruits data  , Which user is not loged in yet only can see the FAQ Section .
+Which user Will create which data , only that user able to make changes in the data or delete that Item .
+
 ## Features
 
 - **Public Access**: Any user can view routes and access general information.
